@@ -19,4 +19,5 @@ jobs:
           cx_tenant: organization
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
+          github_token: ${{ secrets.GH_TOKEN }}
           scan_types: sast,kics,sca
